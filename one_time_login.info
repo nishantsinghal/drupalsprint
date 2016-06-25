@@ -1,0 +1,6 @@
+name = One-time login links
+description = "Send one-time login links to users and generate a CSV of one-time login links."
+core = 7.x
+files[] = views/views_handler_field_one_time_login_url.inc
+files[] = views/views_handler_field_one_time_login_expiry.inc
+files[] = one_time_login.test
